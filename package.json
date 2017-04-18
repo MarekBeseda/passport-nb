@@ -1,0 +1,33 @@
+{
+  "name": "passport-nb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarekBeseda/passport-nb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarekBeseda/passport-nb/issues"
+  },
+  "homepage": "https://github.com/MarekBeseda/passport-nb#readme",
+	"dependencies": {
+    "oauth": "^0.9.12",
+    "passport-oauth2": "1.x.x",
+    "url": "^0.10.2",
+    "utils-merge": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.2.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
